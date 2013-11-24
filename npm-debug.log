@@ -1,0 +1,949 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'browserify', '-g' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/vagrant/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+silly exec /usr/bin/node "/usr/share/npm/bin/npm-get-uid-gid.js" "nobody" 1000
+silly spawning [ '/usr/bin/node',
+silly spawning   [ '/usr/share/npm/bin/npm-get-uid-gid.js', 'nobody', 1000 ],
+silly spawning   null ]
+silly output from getuid/gid {"uid":65534,"gid":1000}
+silly output from getuid/gid 
+verbose cache add [ 'browserify', null ]
+silly cache add: name, spec, args [ undefined, 'browserify', [ 'browserify', null ] ]
+verbose parsed url { pathname: 'browserify',
+verbose parsed url   path: 'browserify',
+verbose parsed url   href: 'browserify' }
+verbose addNamed [ 'browserify', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'browserify', '', false ]
+verbose raw, before any munging browserify
+verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+verbose url resolved https://registry.npmjs.org/browserify
+verbose etag "53MT374UVFZLXVEW47RFD7DD"
+http GET https://registry.npmjs.org/browserify
+http 304 https://registry.npmjs.org/browserify
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"53MT374UVFZLXVEW47RFD7DD"',
+silly get cb     date: 'Sun, 24 Nov 2013 01:51:05 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag browserify from cache
+silly name, range, hasData 2 [ 'browserify', '', true ]
+silly versions [ 'browserify',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.2.10',
+silly versions     '0.2.11',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.4.4',
+silly versions     '0.4.5',
+silly versions     '0.4.6',
+silly versions     '0.4.7',
+silly versions     '0.4.8',
+silly versions     '0.4.9',
+silly versions     '0.4.10',
+silly versions     '0.4.11',
+silly versions     '0.4.12',
+silly versions     '0.4.13',
+silly versions     '0.4.14',
+silly versions     '0.4.15',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.1.4',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.2.7',
+silly versions     '1.2.8',
+silly versions     '1.2.9',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.4.1',
+silly versions     '1.4.2',
+silly versions     '1.4.3',
+silly versions     '1.4.4',
+silly versions     '1.4.5',
+silly versions     '1.4.6',
+silly versions     '1.4.7',
+silly versions     '1.4.8',
+silly versions     '1.5.0',
+silly versions     '1.6.0',
+silly versions     '1.6.1',
+silly versions     '1.7.0',
+silly versions     '1.7.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.7.4',
+silly versions     '1.7.5',
+silly versions     '1.7.6',
+silly versions     '1.7.7',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '1.9.2',
+silly versions     '1.9.3',
+silly versions     '1.9.4',
+silly versions     '1.10.0',
+silly versions     '1.10.1',
+silly versions     '1.10.2',
+silly versions     '1.10.3',
+silly versions     '1.10.4',
+silly versions     '1.10.5',
+silly versions     '1.10.6',
+silly versions     '1.10.7',
+silly versions     '1.10.8',
+silly versions     '1.10.9',
+silly versions     '1.10.11',
+silly versions     '1.10.12',
+silly versions     '1.10.13',
+silly versions     '1.10.14',
+silly versions     '1.10.15',
+silly versions     '1.10.16',
+silly versions     '1.10.17',
+silly versions     '1.11.0',
+silly versions     '1.11.1',
+silly versions     '1.12.0',
+silly versions     '1.12.1',
+silly versions     '1.12.2',
+silly versions     '1.12.3',
+silly versions     '1.13.0',
+silly versions     '1.13.1',
+silly versions     '1.13.2',
+silly versions     '1.13.3',
+silly versions     '1.13.4',
+silly versions     '1.13.5',
+silly versions     '1.13.6',
+silly versions     '1.13.8',
+silly versions     '1.13.9',
+silly versions     '1.13.10',
+silly versions     '1.14.0',
+silly versions     '1.14.1',
+silly versions     '1.14.2',
+silly versions     '1.14.3',
+silly versions     '1.14.4',
+silly versions     '1.14.5',
+silly versions     '1.15.0',
+silly versions     '1.15.1',
+silly versions     '1.15.2',
+silly versions     '1.15.3',
+silly versions     '1.15.4',
+silly versions     '1.15.5',
+silly versions     '1.15.6',
+silly versions     '1.16.0',
+silly versions     '1.16.1',
+silly versions     '1.16.2',
+silly versions     '1.16.3',
+silly versions     '1.16.4',
+silly versions     '1.16.5',
+silly versions     '1.16.6',
+silly versions     '1.16.7',
+silly versions     '1.16.8',
+silly versions     '1.17.0',
+silly versions     '1.17.1',
+silly versions     '1.17.2',
+silly versions     '1.17.3',
+silly versions     '1.18.0',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.1.0',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.2.3',
+silly versions     '2.2.4',
+silly versions     '2.2.5',
+silly versions     '2.2.6',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.4.0',
+silly versions     '2.4.1',
+silly versions     '2.4.2',
+silly versions     '2.4.3',
+silly versions     '2.5.0',
+silly versions     '2.5.1',
+silly versions     '2.6.0',
+silly versions     '2.6.1',
+silly versions     '2.7.0',
+silly versions     '2.7.1',
+silly versions     '2.7.2',
+silly versions     '2.7.3',
+silly versions     '2.7.4',
+silly versions     '2.8.0',
+silly versions     '2.8.1',
+silly versions     '2.9.0',
+silly versions     '2.10.0',
+silly versions     '2.10.1',
+silly versions     '2.10.2',
+silly versions     '2.11.0',
+silly versions     '2.12.0',
+silly versions     '2.12.1',
+silly versions     '2.12.2',
+silly versions     '2.12.3',
+silly versions     '2.12.4',
+silly versions     '2.12.5',
+silly versions     '2.13.0',
+silly versions     '2.13.1',
+silly versions     '2.13.2',
+silly versions     '2.13.3',
+silly versions     '2.14.0',
+silly versions     '2.14.1',
+silly versions     '2.14.2',
+silly versions     '2.15.0',
+silly versions     '2.16.0',
+silly versions     '2.17.0',
+silly versions     '2.17.1',
+silly versions     '2.17.2',
+silly versions     '2.17.3',
+silly versions     '2.17.4',
+silly versions     '2.18.0',
+silly versions     '2.18.1',
+silly versions     '2.19.0',
+silly versions     '2.20.0',
+silly versions     '2.20.1',
+silly versions     '2.20.2',
+silly versions     '2.21.0',
+silly versions     '2.22.0',
+silly versions     '2.23.0',
+silly versions     '2.23.1',
+silly versions     '2.24.0',
+silly versions     '2.24.1',
+silly versions     '2.24.2',
+silly versions     '2.24.3',
+silly versions     '2.25.0',
+silly versions     '2.25.1',
+silly versions     '2.26.0',
+silly versions     '2.27.0',
+silly versions     '2.27.1',
+silly versions     '2.28.0',
+silly versions     '2.29.0',
+silly versions     '2.29.1',
+silly versions     '2.30.0',
+silly versions     '2.31.0',
+silly versions     '2.32.0',
+silly versions     '2.32.1',
+silly versions     '2.32.2',
+silly versions     '2.32.3',
+silly versions     '2.32.4',
+silly versions     '2.33.0',
+silly versions     '2.33.1',
+silly versions     '2.34.0',
+silly versions     '2.34.1',
+silly versions     '2.34.2',
+silly versions     '2.34.3',
+silly versions     '2.35.0',
+silly versions     '2.35.1',
+silly versions     '2.35.2',
+silly versions     '2.35.3',
+silly versions     '2.35.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.2.0-23-generic',
+verbose bin dist   { shasum: 'f285769148f91dd65faa293a144984a7bae0618d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/browserify/-/browserify-2.35.4.tgz' } ]
+verbose caching /home/vagrant/.npm/browserify/2.35.4/package/package.json
+verbose loadDefaults browserify@2.35.4
+silly resolved [ { name: 'browserify',
+silly resolved     version: '2.35.4',
+silly resolved     description: 'browser-side require() the node way',
+silly resolved     main: 'index.js',
+silly resolved     bin: { browserify: 'bin/cmd.js' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-browserify.git' },
+silly resolved     keywords: 
+silly resolved      [ 'browser',
+silly resolved        'require',
+silly resolved        'commonjs',
+silly resolved        'commonj-esque',
+silly resolved        'bundle',
+silly resolved        'npm',
+silly resolved        'javascript' ],
+silly resolved     dependencies: 
+silly resolved      { 'module-deps': '~1.0.2',
+silly resolved        'browser-pack': '~1.1.0',
+silly resolved        'deps-sort': '~0.1.1',
+silly resolved        'shell-quote': '~0.0.1',
+silly resolved        through: '~2.3.4',
+silly resolved        duplexer: '~0.1.1',
+silly resolved        'stream-combiner': '~0.0.2',
+silly resolved        'concat-stream': '~1.0.0',
+silly resolved        'insert-module-globals': '~1.3.0',
+silly resolved        'syntax-error': '~0.0.0',
+silly resolved        'browser-resolve': '~1.1.0',
+silly resolved        'browser-builtins': '2.0.5',
+silly resolved        inherits: '~1.0.0',
+silly resolved        optimist: '~0.5.1',
+silly resolved        JSONStream: '~0.6.4',
+silly resolved        umd: '~1.3.0',
+silly resolved        parents: '~0.0.1',
+silly resolved        'deep-equal': '~0.1.0' },
+silly resolved     devDependencies: 
+silly resolved      { tap: '~0.4.0',
+silly resolved        mkdirp: '~0.3.3',
+silly resolved        backbone: '~0.9.2',
+silly resolved        dnode: '~1.0.3',
+silly resolved        seq: '0.3.3',
+silly resolved        'coffee-script': '~1.5.0' },
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     license: 'MIT',
+silly resolved     _id: 'browserify@2.35.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'browserify' } ]
+info into /usr/local/lib browserify@2.35.4
+info installOne browserify@2.35.4
+verbose from cache /home/vagrant/.npm/browserify/2.35.4/package/package.json
+info unbuild /usr/local/lib/node_modules/browserify
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___browserify.npm'
+verbose mkdir done: /usr/local/lib/node_modules/___browserify.npm 755
+verbose unpack_ uid, gid [ 65534, 1000 ]
+verbose unpackTarget /usr/local/lib/node_modules/browserify
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/.travis.yml
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/_empty.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/readme.markdown
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/LICENSE
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/bin/advanced.txt
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/bin/cmd.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/bin/args.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/bin/usage.txt
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/beep.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/boop.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/build.sh
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/robot.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/static
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/static/boop.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/multiple_bundles/static/beep.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api/build.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api/browser
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api/browser/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api/browser/bar.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/api/browser/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/index.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/build.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/build.sh
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/build
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/build/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/wunder
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/example/source_maps/js/wunder/bar.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone_sourcemap.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/external.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/unicode.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/error_code.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/backbone.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/coffee_bin.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/shebang.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/export.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/bin.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/bin_entry.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dep.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/fake.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/bundle.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/circular.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/buffer.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/file_event.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_bundle.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dollar.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/catch.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/ignore.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/comment.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/util.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/json.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/bundle_sourcemap.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/stream.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dnode.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry_exec.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/require_cache.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/maxlisteners.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dedupe-nomap.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_entry.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/process.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/retarget.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/args.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/crypto.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/unicode
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/unicode/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/unicode/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/unicode/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/stream
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/stream/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/stream/bar.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/stream/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_bundle
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_bundle/b.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_bundle/a.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_bundle/c.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/catch
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/catch/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/circular
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/circular/b.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/circular/a.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/circular/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/external
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/external/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/external/x.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/export
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/export/entry.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/coffee_bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/coffee_bin/main.coffee
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/coffee_bin/x.coffee
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry_exec
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry_exec/fail.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/entry_exec/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/ignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/ignore/skip.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/ignore/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/ignore/by-id.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle/lazy.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle/arbitrary.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle/shared.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/reverse_multi_bundle/app.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/process
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/process/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/process/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/process/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_entry
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_entry/b.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_entry/a.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/multi_entry/c.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global/tick.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global/buffer.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/global/filename.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/maxlisteners
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/maxlisteners/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/json/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/json/beep.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dup
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dup/foo-dup.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dup/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dup/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/error_code
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/error_code/src.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/shebang
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/shebang/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/shebang/foo.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/fake
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/fake/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/fake/fake_fs.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/comment
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/comment/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/standalone/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/other.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/foo
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/foo/other.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash/foo/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance/one.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance/foo
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance/foo/two.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/node_modules/beep
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/node_modules/beep/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dollar
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dollar/dollar
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/dollar/dollar/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/h.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/dir
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/dir/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/dir/h.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/two/dir/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one/dir
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one/dir/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/one/dir/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/h.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/dir
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/dir/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/dir/h.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/hash_instance_context/three/dir/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/object.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/miss.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/sub.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/string.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-miss
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-miss/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-miss/browser.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-miss/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-string
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-string/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-string/browser.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-string/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-object
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-object/browser.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-object/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-object/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub/browser
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub/browser/b.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/field/node_modules/z-sub/browser/a.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/f.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/main.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/subdir
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/subdir/g.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/xyz
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/xyz/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/insert-aaa
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/insert-aaa/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/m
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/m/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/insert-bbb
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/insert-bbb/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g/node_modules/insert-ggg
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/tr/node_modules/g/node_modules/insert-ggg/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/b.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/ignore_me.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/f
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/f/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/c
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/c/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/c/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/a
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/a/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/a/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/z
+silly asyncMap in gTP /usr/local/lib/node_modules/___browserify.npm/package/test/subdep/node_modules/qq/node_modules/z/index.js
+verbose gunzed /usr/local/lib/node_modules/___browserify.npm/package
+verbose rm'ed /usr/local/lib/node_modules/browserify
+verbose renamed [ '/usr/local/lib/node_modules/___browserify.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/browserify' ]
+verbose caching /usr/local/lib/node_modules/browserify/package.json
+verbose loadDefaults browserify@2.35.4
+info preinstall browserify@2.35.4
+verbose from cache /usr/local/lib/node_modules/browserify/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/local/lib/node_modules/browserify/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'module-deps@~1.0.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'module-deps@~1.0.2',
+silly cache add: name, spec, args   [ 'module-deps@~1.0.2', null ] ]
+verbose parsed url { pathname: 'module-deps@~1.0.2',
+verbose parsed url   path: 'module-deps@~1.0.2',
+verbose parsed url   href: 'module-deps@~1.0.2' }
+silly cache add: name, spec, args [ 'module-deps', '~1.0.2', [ 'module-deps', '~1.0.2' ] ]
+verbose parsed url { pathname: '~1.0.2', path: '~1.0.2', href: '~1.0.2' }
+verbose addNamed [ 'module-deps', '~1.0.2' ]
+verbose addNamed [ null, '>=1.0.2- <1.1.0-' ]
+silly name, range, hasData [ 'module-deps', '>=1.0.2- <1.1.0-', false ]
+verbose raw, before any munging module-deps
+verbose url resolving [ 'https://registry.npmjs.org/', './module-deps' ]
+verbose url resolved https://registry.npmjs.org/module-deps
+http GET https://registry.npmjs.org/module-deps
+verbose cache add [ 'browser-pack@~1.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'browser-pack@~1.1.0',
+silly cache add: name, spec, args   [ 'browser-pack@~1.1.0', null ] ]
+verbose parsed url { pathname: 'browser-pack@~1.1.0',
+verbose parsed url   path: 'browser-pack@~1.1.0',
+verbose parsed url   href: 'browser-pack@~1.1.0' }
+silly cache add: name, spec, args [ 'browser-pack', '~1.1.0', [ 'browser-pack', '~1.1.0' ] ]
+verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+verbose addNamed [ 'browser-pack', '~1.1.0' ]
+verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+silly name, range, hasData [ 'browser-pack', '>=1.1.0- <1.2.0-', false ]
+verbose raw, before any munging browser-pack
+verbose url resolving [ 'https://registry.npmjs.org/', './browser-pack' ]
+verbose url resolved https://registry.npmjs.org/browser-pack
+http GET https://registry.npmjs.org/browser-pack
+verbose cache add [ 'deps-sort@~0.1.1', null ]
+silly cache add: name, spec, args [ undefined, 'deps-sort@~0.1.1', [ 'deps-sort@~0.1.1', null ] ]
+verbose parsed url { pathname: 'deps-sort@~0.1.1',
+verbose parsed url   path: 'deps-sort@~0.1.1',
+verbose parsed url   href: 'deps-sort@~0.1.1' }
+silly cache add: name, spec, args [ 'deps-sort', '~0.1.1', [ 'deps-sort', '~0.1.1' ] ]
+verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+verbose addNamed [ 'deps-sort', '~0.1.1' ]
+verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+silly name, range, hasData [ 'deps-sort', '>=0.1.1- <0.2.0-', false ]
+verbose cache add [ 'shell-quote@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'shell-quote@~0.0.1',
+silly cache add: name, spec, args   [ 'shell-quote@~0.0.1', null ] ]
+verbose parsed url { pathname: 'shell-quote@~0.0.1',
+verbose parsed url   path: 'shell-quote@~0.0.1',
+verbose parsed url   href: 'shell-quote@~0.0.1' }
+silly cache add: name, spec, args [ 'shell-quote', '~0.0.1', [ 'shell-quote', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+verbose addNamed [ 'shell-quote', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+silly name, range, hasData [ 'shell-quote', '>=0.0.1- <0.1.0-', false ]
+verbose cache add [ 'through@~2.3.4', null ]
+silly cache add: name, spec, args [ undefined, 'through@~2.3.4', [ 'through@~2.3.4', null ] ]
+verbose parsed url { pathname: 'through@~2.3.4',
+verbose parsed url   path: 'through@~2.3.4',
+verbose parsed url   href: 'through@~2.3.4' }
+silly cache add: name, spec, args [ 'through', '~2.3.4', [ 'through', '~2.3.4' ] ]
+verbose parsed url { pathname: '~2.3.4', path: '~2.3.4', href: '~2.3.4' }
+verbose addNamed [ 'through', '~2.3.4' ]
+verbose addNamed [ null, '>=2.3.4- <2.4.0-' ]
+silly name, range, hasData [ 'through', '>=2.3.4- <2.4.0-', false ]
+verbose cache add [ 'duplexer@~0.1.1', null ]
+silly cache add: name, spec, args [ undefined, 'duplexer@~0.1.1', [ 'duplexer@~0.1.1', null ] ]
+verbose parsed url { pathname: 'duplexer@~0.1.1',
+verbose parsed url   path: 'duplexer@~0.1.1',
+verbose parsed url   href: 'duplexer@~0.1.1' }
+silly cache add: name, spec, args [ 'duplexer', '~0.1.1', [ 'duplexer', '~0.1.1' ] ]
+verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+verbose addNamed [ 'duplexer', '~0.1.1' ]
+verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+silly name, range, hasData [ 'duplexer', '>=0.1.1- <0.2.0-', false ]
+verbose cache add [ 'stream-combiner@~0.0.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'stream-combiner@~0.0.2',
+silly cache add: name, spec, args   [ 'stream-combiner@~0.0.2', null ] ]
+verbose parsed url { pathname: 'stream-combiner@~0.0.2',
+verbose parsed url   path: 'stream-combiner@~0.0.2',
+verbose parsed url   href: 'stream-combiner@~0.0.2' }
+silly cache add: name, spec, args [ 'stream-combiner', '~0.0.2', [ 'stream-combiner', '~0.0.2' ] ]
+verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+verbose addNamed [ 'stream-combiner', '~0.0.2' ]
+verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+silly name, range, hasData [ 'stream-combiner', '>=0.0.2- <0.1.0-', false ]
+verbose raw, before any munging deps-sort
+verbose url resolving [ 'https://registry.npmjs.org/', './deps-sort' ]
+verbose url resolved https://registry.npmjs.org/deps-sort
+http GET https://registry.npmjs.org/deps-sort
+verbose raw, before any munging shell-quote
+verbose url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
+verbose url resolved https://registry.npmjs.org/shell-quote
+http GET https://registry.npmjs.org/shell-quote
+verbose raw, before any munging through
+verbose url resolving [ 'https://registry.npmjs.org/', './through' ]
+verbose url resolved https://registry.npmjs.org/through
+http GET https://registry.npmjs.org/through
+verbose raw, before any munging duplexer
+verbose url resolving [ 'https://registry.npmjs.org/', './duplexer' ]
+verbose url resolved https://registry.npmjs.org/duplexer
+http GET https://registry.npmjs.org/duplexer
+verbose raw, before any munging stream-combiner
+verbose url resolving [ 'https://registry.npmjs.org/', './stream-combiner' ]
+verbose url resolved https://registry.npmjs.org/stream-combiner
+http GET https://registry.npmjs.org/stream-combiner
+verbose cache add [ 'concat-stream@~1.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'concat-stream@~1.0.0',
+silly cache add: name, spec, args   [ 'concat-stream@~1.0.0', null ] ]
+verbose parsed url { pathname: 'concat-stream@~1.0.0',
+verbose parsed url   path: 'concat-stream@~1.0.0',
+verbose parsed url   href: 'concat-stream@~1.0.0' }
+silly cache add: name, spec, args [ 'concat-stream', '~1.0.0', [ 'concat-stream', '~1.0.0' ] ]
+verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+verbose addNamed [ 'concat-stream', '~1.0.0' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'concat-stream', '>=1.0.0- <1.1.0-', false ]
+verbose cache add [ 'insert-module-globals@~1.3.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'insert-module-globals@~1.3.0',
+silly cache add: name, spec, args   [ 'insert-module-globals@~1.3.0', null ] ]
+verbose parsed url { pathname: 'insert-module-globals@~1.3.0',
+verbose parsed url   path: 'insert-module-globals@~1.3.0',
+verbose parsed url   href: 'insert-module-globals@~1.3.0' }
+silly cache add: name, spec, args [ 'insert-module-globals',
+silly cache add: name, spec, args   '~1.3.0',
+silly cache add: name, spec, args   [ 'insert-module-globals', '~1.3.0' ] ]
+verbose parsed url { pathname: '~1.3.0', path: '~1.3.0', href: '~1.3.0' }
+verbose addNamed [ 'insert-module-globals', '~1.3.0' ]
+verbose addNamed [ null, '>=1.3.0- <1.4.0-' ]
+silly name, range, hasData [ 'insert-module-globals', '>=1.3.0- <1.4.0-', false ]
+verbose cache add [ 'syntax-error@~0.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'syntax-error@~0.0.0',
+silly cache add: name, spec, args   [ 'syntax-error@~0.0.0', null ] ]
+verbose parsed url { pathname: 'syntax-error@~0.0.0',
+verbose parsed url   path: 'syntax-error@~0.0.0',
+verbose parsed url   href: 'syntax-error@~0.0.0' }
+silly cache add: name, spec, args [ 'syntax-error', '~0.0.0', [ 'syntax-error', '~0.0.0' ] ]
+verbose parsed url { pathname: '~0.0.0', path: '~0.0.0', href: '~0.0.0' }
+verbose addNamed [ 'syntax-error', '~0.0.0' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'syntax-error', '>=0.0.0- <0.1.0-', false ]
+verbose cache add [ 'browser-resolve@~1.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'browser-resolve@~1.1.0',
+silly cache add: name, spec, args   [ 'browser-resolve@~1.1.0', null ] ]
+verbose parsed url { pathname: 'browser-resolve@~1.1.0',
+verbose parsed url   path: 'browser-resolve@~1.1.0',
+verbose parsed url   href: 'browser-resolve@~1.1.0' }
+silly cache add: name, spec, args [ 'browser-resolve', '~1.1.0', [ 'browser-resolve', '~1.1.0' ] ]
+verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+verbose addNamed [ 'browser-resolve', '~1.1.0' ]
+verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+silly name, range, hasData [ 'browser-resolve', '>=1.1.0- <1.2.0-', false ]
+verbose cache add [ 'browser-builtins@2.0.5', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'browser-builtins@2.0.5',
+silly cache add: name, spec, args   [ 'browser-builtins@2.0.5', null ] ]
+verbose parsed url { pathname: 'browser-builtins@2.0.5',
+verbose parsed url   path: 'browser-builtins@2.0.5',
+verbose parsed url   href: 'browser-builtins@2.0.5' }
+silly cache add: name, spec, args [ 'browser-builtins', '2.0.5', [ 'browser-builtins', '2.0.5' ] ]
+verbose parsed url { pathname: '2.0.5', path: '2.0.5', href: '2.0.5' }
+verbose addNamed [ 'browser-builtins', '2.0.5' ]
+verbose addNamed [ '2.0.5', '2.0.5' ]
+verbose cache add [ 'inherits@~1.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'inherits@~1.0.0', [ 'inherits@~1.0.0', null ] ]
+verbose parsed url { pathname: 'inherits@~1.0.0',
+verbose parsed url   path: 'inherits@~1.0.0',
+verbose parsed url   href: 'inherits@~1.0.0' }
+silly cache add: name, spec, args [ 'inherits', '~1.0.0', [ 'inherits', '~1.0.0' ] ]
+verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+verbose addNamed [ 'inherits', '~1.0.0' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'inherits', '>=1.0.0- <1.1.0-', false ]
+verbose cache add [ 'optimist@~0.5.1', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.5.1', [ 'optimist@~0.5.1', null ] ]
+verbose parsed url { pathname: 'optimist@~0.5.1',
+verbose parsed url   path: 'optimist@~0.5.1',
+verbose parsed url   href: 'optimist@~0.5.1' }
+silly cache add: name, spec, args [ 'optimist', '~0.5.1', [ 'optimist', '~0.5.1' ] ]
+verbose parsed url { pathname: '~0.5.1', path: '~0.5.1', href: '~0.5.1' }
+verbose addNamed [ 'optimist', '~0.5.1' ]
+verbose addNamed [ null, '>=0.5.1- <0.6.0-' ]
+silly name, range, hasData [ 'optimist', '>=0.5.1- <0.6.0-', false ]
+verbose cache add [ 'JSONStream@~0.6.4', null ]
+silly cache add: name, spec, args [ undefined, 'JSONStream@~0.6.4', [ 'JSONStream@~0.6.4', null ] ]
+verbose parsed url { pathname: 'JSONStream@~0.6.4',
+verbose parsed url   path: 'JSONStream@~0.6.4',
+verbose parsed url   href: 'JSONStream@~0.6.4' }
+silly cache add: name, spec, args [ 'JSONStream', '~0.6.4', [ 'JSONStream', '~0.6.4' ] ]
+verbose parsed url { pathname: '~0.6.4', path: '~0.6.4', href: '~0.6.4' }
+verbose addNamed [ 'JSONStream', '~0.6.4' ]
+verbose addNamed [ null, '>=0.6.4- <0.7.0-' ]
+silly name, range, hasData [ 'JSONStream', '>=0.6.4- <0.7.0-', false ]
+verbose cache add [ 'umd@~1.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'umd@~1.3.0', [ 'umd@~1.3.0', null ] ]
+verbose parsed url { pathname: 'umd@~1.3.0',
+verbose parsed url   path: 'umd@~1.3.0',
+verbose parsed url   href: 'umd@~1.3.0' }
+silly cache add: name, spec, args [ 'umd', '~1.3.0', [ 'umd', '~1.3.0' ] ]
+verbose parsed url { pathname: '~1.3.0', path: '~1.3.0', href: '~1.3.0' }
+verbose addNamed [ 'umd', '~1.3.0' ]
+verbose addNamed [ null, '>=1.3.0- <1.4.0-' ]
+silly name, range, hasData [ 'umd', '>=1.3.0- <1.4.0-', false ]
+verbose cache add [ 'parents@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'parents@~0.0.1', [ 'parents@~0.0.1', null ] ]
+verbose parsed url { pathname: 'parents@~0.0.1',
+verbose parsed url   path: 'parents@~0.0.1',
+verbose parsed url   href: 'parents@~0.0.1' }
+silly cache add: name, spec, args [ 'parents', '~0.0.1', [ 'parents', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+verbose addNamed [ 'parents', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+silly name, range, hasData [ 'parents', '>=0.0.1- <0.1.0-', false ]
+verbose cache add [ 'deep-equal@~0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'deep-equal@~0.1.0', [ 'deep-equal@~0.1.0', null ] ]
+verbose parsed url { pathname: 'deep-equal@~0.1.0',
+verbose parsed url   path: 'deep-equal@~0.1.0',
+verbose parsed url   href: 'deep-equal@~0.1.0' }
+silly cache add: name, spec, args [ 'deep-equal', '~0.1.0', [ 'deep-equal', '~0.1.0' ] ]
+verbose parsed url { pathname: '~0.1.0', path: '~0.1.0', href: '~0.1.0' }
+verbose addNamed [ 'deep-equal', '~0.1.0' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+silly name, range, hasData [ 'deep-equal', '>=0.1.0- <0.2.0-', false ]
+verbose raw, before any munging concat-stream
+verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+verbose url resolved https://registry.npmjs.org/concat-stream
+http GET https://registry.npmjs.org/concat-stream
+verbose raw, before any munging insert-module-globals
+verbose url resolving [ 'https://registry.npmjs.org/', './insert-module-globals' ]
+verbose url resolved https://registry.npmjs.org/insert-module-globals
+http GET https://registry.npmjs.org/insert-module-globals
+verbose raw, before any munging syntax-error
+verbose url resolving [ 'https://registry.npmjs.org/', './syntax-error' ]
+verbose url resolved https://registry.npmjs.org/syntax-error
+http GET https://registry.npmjs.org/syntax-error
+verbose raw, before any munging browser-resolve
+verbose url resolving [ 'https://registry.npmjs.org/', './browser-resolve' ]
+verbose url resolved https://registry.npmjs.org/browser-resolve
+http GET https://registry.npmjs.org/browser-resolve
+verbose raw, before any munging browser-builtins/2.0.5
+verbose url resolving [ 'https://registry.npmjs.org/', './browser-builtins/2.0.5' ]
+verbose url resolved https://registry.npmjs.org/browser-builtins/2.0.5
+http GET https://registry.npmjs.org/browser-builtins/2.0.5
+verbose raw, before any munging inherits
+verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+verbose url resolved https://registry.npmjs.org/inherits
+http GET https://registry.npmjs.org/inherits
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+http GET https://registry.npmjs.org/optimist
+verbose raw, before any munging JSONStream
+verbose url resolving [ 'https://registry.npmjs.org/', './JSONStream' ]
+verbose url resolved https://registry.npmjs.org/JSONStream
+http GET https://registry.npmjs.org/JSONStream
+verbose raw, before any munging umd
+verbose url resolving [ 'https://registry.npmjs.org/', './umd' ]
+verbose url resolved https://registry.npmjs.org/umd
+http GET https://registry.npmjs.org/umd
+verbose raw, before any munging deep-equal
+verbose url resolving [ 'https://registry.npmjs.org/', './deep-equal' ]
+verbose url resolved https://registry.npmjs.org/deep-equal
+http GET https://registry.npmjs.org/deep-equal
+verbose raw, before any munging parents
+verbose url resolving [ 'https://registry.npmjs.org/', './parents' ]
+verbose url resolved https://registry.npmjs.org/parents
+http GET https://registry.npmjs.org/parents
+http 408 https://registry.npmjs.org/deps-sort
+verbose bad json <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+ERR! registry error parsing json
+silly get cb [ 408, { 'content-type': 'text/html', 'content-length': '80' } ]
+verbose about to build /usr/local/lib/node_modules/browserify
+ERR! error installing browserify@2.35.4
+info unbuild /usr/local/lib/node_modules/browserify
+verbose from cache /usr/local/lib/node_modules/browserify/package.json
+info preuninstall browserify@2.35.4
+info uninstall browserify@2.35.4
+verbose unbuild browserify@2.35.4 [ true,
+verbose unbuild browserify@2.35.4   '/usr/local/lib/node_modules',
+verbose unbuild browserify@2.35.4   '/usr/local/lib/node_modules' ]
+verbose binRoot [ '/usr/local/bin', { browserify: 'bin/cmd.js' } ]
+info postuninstall browserify@2.35.4
+http 408 https://registry.npmjs.org/shell-quote
+verbose bad json <html><title>Request timeout</title><body><h1>Request timeout</h1></body></html>
+ERR! registry error parsing json
+silly get cb [ 408, { 'content-type': 'text/html', 'content-length': '80' } ]
+verbose installOne cb browserify@2.35.4
+ERR! Error: failed to fetch from registry: deps-sort
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:153:14)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:525:16)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/main.js:484:14)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1150:24)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /vagrant/mysite/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-23-generic
+ERR! command "node" "/usr/bin/npm" "install" "browserify" "-g"
+ERR! cwd /vagrant/mysite
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: deps-sort
+verbose exit [ 1, true ]
