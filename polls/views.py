@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from polls.models import Question, Choice
 
@@ -26,8 +26,9 @@ def results(request, question_id):
 	question = get_object_or_404(Question, pk=question_id)
 	return render(request, 'polls/results.html', {
 		'question':question
-		})
-
+		}
+)
+	
 def vote(request, question_id):
 	p = get_object_or_404(Question, pk=question_id)
 	try:
