@@ -24,4 +24,3 @@ class Choice(models.Model):
 
 	def __univode__(self):
 		return self.choice_text
-
